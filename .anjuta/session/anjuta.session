@@ -1,0 +1,26 @@
+
+[Anjuta]
+Maximized=1
+Geometry=1024x576+0+1
+
+[File Loader]
+Files=file:///media/data/BME/Szoftlab/Kigyo/Kigyo/program.c#450%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/linux.h#1%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/linux.c#71%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/kigyo.c#659%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/kigyo.h#21%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/matrix.c#6%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/types.h#14%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/matrix.h#1%%%file:///media/data/BME/Szoftlab/Kigyo/Kigyo/types.c#5
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
+
+[Execution]
+Program uri=file:///media/data/BME/Szoftlab/Kigyo/Debug/kigyo
+Run in terminal=2
+Working directories=file:///media/data/BME/Szoftlab/Kigyo
+
+[Build]
+Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
+Selected Configuration=Default
+BuildArgs/Default=--enable-maintainer-mode
+BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
+BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
+BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
+
+[Debugger]
+Stop at beginning=2
