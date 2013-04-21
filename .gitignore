@@ -4,6 +4,8 @@
 /Debug/*
 Release
 Debug
-*exe
-*o
+Release/*
+Debug/*
+*.exe
+*.o
 *~
